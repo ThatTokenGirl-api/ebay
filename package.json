@@ -1,0 +1,31 @@
+{
+  "name": "@thattokengirl-api/ebay",
+  "version": "0.0.0",
+  "description": "Interface with ebay using javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatTokenGirl-api/ebay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThatTokenGirl-api/ebay/issues"
+  },
+  "homepage": "https://github.com/ThatTokenGirl-api/ebay#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.15",
+    "generate-changelog": "^1.8.0",
+    "jest": "^26.6.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@thattokengirl-utilities/http": "^1.0.5"
+  }
+}
