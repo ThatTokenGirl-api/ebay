@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false
+  },
+
+  "include": ["./", "../../src"],
+
+  "exclude": ["./build", "../../src/**/__tests__/*"]
+}
